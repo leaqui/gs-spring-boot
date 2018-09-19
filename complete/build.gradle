@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        mavenCentral()
+		mavenLocal()
+		maven { url "http://dgsiaf-nexus.mecon.ar:8081/repository/dgsiaf/" }
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.5.RELEASE")
@@ -27,7 +28,8 @@ war {
 
 
 repositories {
-    mavenCentral()
+  mavenLocal()
+	maven { url "http://dgsiaf-nexus.mecon.ar:8081/repository/dgsiaf/" }
 }
 
 sourceCompatibility = 1.8
