@@ -19,6 +19,13 @@ bootJar {
     version =  '0.1.0'
 }
 
+
+war {
+	enabled = true
+}
+
+
+
 repositories {
     mavenCentral()
 }
