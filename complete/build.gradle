@@ -21,11 +21,6 @@ bootJar {
 }
 
 
-war {
-	enabled = true
-}
-
-
 
 repositories {
   mavenLocal()
